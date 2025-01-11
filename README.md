@@ -1,1 +1,1 @@
-# html-css-js-mini-projects
+# Major League Hacking's Global Hack Week: Beginner's Week Project Portfolio
