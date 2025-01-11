@@ -6,22 +6,21 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-color: red;
- }
+}
  
- .pomodoro__time {
+.pomodoro__time {
    font-size: 5rem;
    font-weight: 100;
- }
+}
  
- .pomodoro__buttons {
+.pomodoro__buttons {
    display: flex;
    justify-content: center;
    margin-top: 1rem;
    padding: 1rem;
- }
+}
  
- .pomodoro__buttons button {
+.pomodoro__buttons button {
    font-size: 1rem;
    padding: 0.5rem 1rem;
    margin: 0 0.5rem;
@@ -29,44 +28,50 @@
    cursor: pointer;
    font-family: monospace;
    border-radius: 5px;
- }
+}
  
- .pomodoro__buttons #start {
+.pomodoro__buttons #start {
    background-color: #4caf50;
    color: #ffffff;
- }
+}
  
- .pomodoro__buttons #pause {
+.pomodoro__buttons #pause {
    background-color: #f44336;
    color: #ffffff;
- }
+}
  
- .pomodoro__buttons #reset {
+.pomodoro__buttons #reset {
    background-color: #2196f3;
    color: #ffffff;
- }
+}
  
- .pomodoro__settings {
+.pomodoro__settings {
    display: flex;
    justify-content: center;
    margin-top: 1rem;
- }
+}
  
- .pomodoro__settings label {
+.pomodoro__settings label {
    font-size: 1rem;
-   margin: 0 0.5rem;
- }
+   margin: 0rem;
+   padding: 0.2rem;
+}
+
+.verticalLine {
+   border-left: 1.5px solid black;
+   margin: 0 0.8rem 0 0.5rem;
+}
  
- .pomodoro__settings input {
+.pomodoro__settings input {
    font-size: 1rem;
-   padding: 0.5rem 1rem;
+   padding: 0.5rem;
    margin: 0 0.5rem;
    border: 1px solid #cccccc;
    border-radius: 5px;
    text-align: center;
- }
+}
  
- .pomodoro__status {
+.pomodoro__status {
    font-size: 1.5rem;
    font-weight: 100;
    margin: 1rem;
@@ -80,4 +85,11 @@
    margin-top: 1rem;
    border-radius: 100px;
    overflow: hidden;
+ }
+ 
+ #progress {
+   width: 0%;
+   height: 100%;
+   background-color: #4caf50;
+   transition: width 0.3s ease;
  }
